@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+    .container{
+        display: flex;
+        flex-direction: row;
+        max-width: 1200px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .food{
+        border: 3px solid tomato;
+        margin: 30px;
+        border-radius: 10px;
+        width: 350px;
+    }
+    .food img{
+        width: 100%;
+    }
+    /* @media (max-width: 760px) {
+        .container{
+            flex-direction: column;
+            
+        }
+        .container .food {
+            background-color: lightseagreen;
+        }
+    }
+    @media (min-width: 1200px) {
+        .container .food {
+            background-color: skyblue;
+        }
+
+    } */
+    </style>
+</head>
+<body>
+    <div class="container">
+         <!-- .food*6>img[src="images/food.jpg"]+p>lorem25 -->
+         <div class="food">
+             <img src="images/food.jpg" alt="">
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi omnis enim nesciunt. Quod repudiandae ullam numquam quidem unde cumque, ipsa omnis tenetur rem!Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi omnis enim nesciunt. Quod repudiandae ullam numquam quidem unde cumque, ipsa omnis tenetur rem!</p>
+         </div>
+         <div class="food">
+             <img src="images/food.jpg" alt="">
+             <p>Enim ipsum tenetur accusantium, porro tempore accusamus ut repellendus perspiciatis nulla repellat non fugit eum doloremque? Voluptates delectus libero ad ipsam, perspiciatis nemo?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi omnis enim nesciunt.</p>
+         </div>
+         <div class="food">
+             <img src="images/food.jpg" alt="">
+             <p>Enim ipsum tenetur accusantium, porro tempore accusamus ut repellendus perspiciatis nulla repellat non fugit eum doloremque? Voluptates delectus libero ad ipsam, perspiciatis nemo?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi omnis enim nesciunt.</p>
+         </div>
+         <div class="food">
+             <img src="images/food.jpg" alt="">
+             <p>Enim ipsum tenetur accusantium, porro tempore accusamus ut repellendus perspiciatis nulla repellat non fugit eum doloremque? Voluptates delectus libero ad ipsam, perspiciatis nemo?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi omnis enim nesciunt.</p>
+         </div>
+         <div class="food">
+             <img src="images/food.jpg" alt="">
+             <p>Enim ipsum tenetur accusantium, porro tempore accusamus ut repellendus perspiciatis nulla repellat non fugit eum doloremque? Voluptates delectus libero ad ipsam, perspiciatis nemo?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi omnis enim nesciunt.</p>
+         </div>
+         <div class="food">
+             <img src="images/food.jpg" alt="">
+             <p>Enim ipsum tenetur accusantium, porro tempore accusamus ut repellendus perspiciatis nulla repellat non fugit eum doloremque? Voluptates delectus libero ad ipsam, perspiciatis nemo?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi omnis enim nesciunt.</p>
+         </div>
+         
+    </div>
+</body>
+</html>
