@@ -18,10 +18,19 @@
             border-radius: 10px;
             position: relative;
             margin: 10px;
+            overflow: hidden;
         }
         .photo-frame .photo img{
             width: 100%;
         }
+        .photo-frame:hover .photo img{
+            /* transform: rotate(360deg ); */
+            transform: scale(1.2 ); 
+            transition: transform 2s;
+
+
+        }
+
         .photo-details{
             position: absolute;
             display: none;
@@ -31,7 +40,7 @@
         }
         .photo-frame:hover .photo-details{
             display: block;
-            background-color:rgba(218, 165, 32, 0.8);
+            background-color:rgba(218, 165, 32, 0.5);
 
         }
         .photo-frame:hover .photo-details h3{
